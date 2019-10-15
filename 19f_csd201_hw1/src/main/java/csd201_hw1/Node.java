@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package csd201_hw1;
 
 /**
  *
- * @author Admin
+ * @author Hai Thanh Tran (haitt36@fe.edu.vn)
  */
 public class Node {
+    public int value;
+    public Node lChild, rChild;
     
+    Node() {
+        this.value = 0;
+        lChild = null;
+        rChild = null;
+    }
+    
+    Node(int x) {
+        this.value = x;
+        lChild = null;
+        rChild = null;
+    }
 }
